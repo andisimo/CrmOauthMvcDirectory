@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrmOauthMvc", "CrmOauthMvc\CrmOauthMvc.csproj", "{A9D74569-BE7B-4B8B-A291-5DBEDF5F68A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{9E3263ED-B7A3-4EA5-99A6-BEB5BDE7D404}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureVMPublishModule.psm1 = PublishScripts\AzureVMPublishModule.psm1
+		PublishScripts\Publish-WebApplicationVM.ps1 = PublishScripts\Publish-WebApplicationVM.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{0B40F637-F976-4E0C-A9B8-7C1B37C43593}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\CrmOauthMvc-WAWS-dev.json = PublishScripts\Configurations\CrmOauthMvc-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9D74569-BE7B-4B8B-A291-5DBEDF5F68A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9D74569-BE7B-4B8B-A291-5DBEDF5F68A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9D74569-BE7B-4B8B-A291-5DBEDF5F68A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9D74569-BE7B-4B8B-A291-5DBEDF5F68A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0B40F637-F976-4E0C-A9B8-7C1B37C43593} = {9E3263ED-B7A3-4EA5-99A6-BEB5BDE7D404}
+	EndGlobalSection
+EndGlobal
